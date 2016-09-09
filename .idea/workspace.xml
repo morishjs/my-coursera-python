@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bc8f04-e556-4adb-8c9c-3639e7305c1d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitable/Library.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitable/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multitable/tracks.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my-coursera-python.iws" />
@@ -17,6 +20,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/my-coursera-python$my_socket.coverage" NAME="my_socket Coverage Results" MODIFIED="1472483855603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3_Network" />
     <SUITE FILE_PATH="coverage/my-coursera-python$counting_email.coverage" NAME="counting_email Coverage Results" MODIFIED="1472486758046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basic_DB" />
+    <SUITE FILE_PATH="coverage/my-coursera-python$tracks.coverage" NAME="tracks Coverage Results" MODIFIED="1473406847412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multitable" />
     <SUITE FILE_PATH="coverage/my-coursera-python$ExtractXML.coverage" NAME="ExtractXML Coverage Results" MODIFIED="1471309612602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week5_Webservice" />
     <SUITE FILE_PATH="coverage/my-coursera-python$ParseJSON.coverage" NAME="ParseJSON Coverage Results" MODIFIED="1471310720303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6_JSON" />
     <SUITE FILE_PATH="coverage/my-coursera-python$ParseGeoJSON.coverage" NAME="ParseGeoJSON Coverage Results" MODIFIED="1471311559950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6_JSON" />
@@ -33,10 +37,32 @@
       <file leaf-file-name="ExtractXML.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week5_Webservice/ExtractXML.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tracks.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multitable/tracks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <marker date="1473406854846" expanded="true" signature="182:209" ph="DROP TABLE I... " />
+                <marker date="1473406854846" expanded="true" signature="211:237" ph="DROP TABLE I... " />
+                <marker date="1473406854846" expanded="true" signature="239:265" ph="DROP TABLE I... " />
+                <marker date="1473406854846" expanded="true" signature="269:375" ph="CREATE TABLE... Artist" />
+                <marker date="1473406854846" expanded="true" signature="378:507" ph="CREATE TABLE... Album" />
+                <marker date="1473406854846" expanded="true" signature="510:694" ph="CREATE TABLE... Track" />
+                <marker date="1473406854846" expanded="true" signature="1667:1724" ph="INSERT OR IG... Artist" />
+                <marker date="1473406854846" expanded="true" signature="1760:1796" ph="SELECT id FR... Artist" />
+                <marker date="1473406854846" expanded="true" signature="1866:1937" ph="INSERT OR IG... Album" />
+                <marker date="1473406854846" expanded="true" signature="1982:2018" ph="SELECT id FR... Album" />
+                <marker date="1473406854846" expanded="true" signature="2086:2194" ph="INSERT OR RE... Track" />
               </folding>
             </state>
           </provider>
@@ -45,45 +71,8 @@
       <file leaf-file-name="my_socket.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week3_Network/my_socket.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="231">
               <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="counting_email.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Basic_DB/counting_email.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-              <folding>
-                <marker date="1472486758030" expanded="true" signature="106:153" ph="CREATE TABLE... Counts" />
-                <marker date="1472486758030" expanded="true" signature="223:240" ph="DROP TABLE C... " />
-                <marker date="1472486758030" expanded="true" signature="460:500" ph="select * fro... Counts" />
-                <marker date="1472486758030" expanded="true" signature="460:576" ph="select * fro... Counts" />
-                <marker date="1472486758030" expanded="true" signature="580:624" ph="insert into Counts... " />
-                <marker date="1472486758030" expanded="true" signature="693:738" ph="Update Count... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mbox.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic_DB/mbox.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic_DB/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,7 +81,7 @@
       <file leaf-file-name="ParseJSON.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week6_JSON/ParseJSON.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="363">
               <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="10" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -104,7 +93,7 @@
       <file leaf-file-name="ParseGeoJSON.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week6_JSON/ParseGeoJSON.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="660">
               <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -116,7 +105,7 @@
       <file leaf-file-name="ElementTree.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Python27/Lib/xml/etree/ElementTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4902">
+            <state relative-caret-position="8514">
               <caret line="260" column="29" selection-start-line="260" selection-start-column="29" selection-end-line="260" selection-end-column="29" />
               <folding />
             </state>
@@ -167,6 +156,7 @@
         <option value="$PROJECT_DIR$/Week6_JSON/ParseGeoJSON.py" />
         <option value="$PROJECT_DIR$/Basic_DB/mbox.txt" />
         <option value="$PROJECT_DIR$/Basic_DB/counting_email.py" />
+        <option value="$PROJECT_DIR$/multitable/tracks.py" />
       </list>
     </option>
   </component>
@@ -207,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -237,12 +226,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Basic_DB" />
+              <option name="myItemId" value="multitable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,29 +243,15 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Junsuk\PycharmProjects\my-coursera-python\multitable" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Junsuk\PycharmProjects\my-coursera-python\multitable" />
       <recent name="C:\Users\Junsuk\PycharmProjects\my-coursera-python\Basic_DB" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.counting_email">
-    <configuration default="false" name="ExtractXML" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week5_Webservice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="my-coursera-python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week5_Webservice/ExtractXML.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.tracks">
     <configuration default="false" name="ParseJSON" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,6 +320,24 @@
       <module name="my-coursera-python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_DB/counting_email.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tracks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/multitable" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="my-coursera-python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multitable/tracks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -557,19 +551,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ExtractXML" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ParseJSON" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ParseGeoJSON" />
-      <item index="3" class="java.lang.String" itemvalue="Python.my_socket" />
-      <item index="4" class="java.lang.String" itemvalue="Python.counting_email" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ParseJSON" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ParseGeoJSON" />
+      <item index="2" class="java.lang.String" itemvalue="Python.my_socket" />
+      <item index="3" class="java.lang.String" itemvalue="Python.counting_email" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tracks" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.counting_email" />
-        <item index="1" class="java.lang.String" itemvalue="Python.my_socket" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ParseGeoJSON" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ParseJSON" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ExtractXML" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tracks" />
+        <item index="1" class="java.lang.String" itemvalue="Python.counting_email" />
+        <item index="2" class="java.lang.String" itemvalue="Python.my_socket" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ParseGeoJSON" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ParseJSON" />
       </list>
     </recent_temporary>
   </component>
@@ -605,7 +599,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -653,6 +647,72 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Week5_Webservice/ExtractXML.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3_Network/my_socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week6_JSON/ParseJSON.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week6_JSON/ParseGeoJSON.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/xml/etree/ElementTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8514">
+          <caret line="260" column="29" selection-start-line="260" selection-start-column="29" selection-end-line="260" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrawler/Basic_webcrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webcrawler/retrieve_username.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week5_Webservice/ExtractXML.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
@@ -827,7 +887,7 @@
     </entry>
     <entry file="file://C:/Python27/Lib/xml/etree/ElementTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4902">
+        <state relative-caret-position="8514">
           <caret line="260" column="29" selection-start-line="260" selection-start-column="29" selection-end-line="260" selection-end-column="29" />
           <folding />
         </state>
@@ -835,7 +895,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week6_JSON/ParseJSON.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="363">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="10" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -845,7 +905,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week6_JSON/ParseGeoJSON.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="660">
           <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -855,8 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week5_Webservice/ExtractXML.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -867,13 +927,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week3_Network/my_socket.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="231">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding />
         </state>
@@ -883,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,13 +949,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multitable/tracks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
-            <marker date="1472486758030" expanded="true" signature="106:153" ph="CREATE TABLE... Counts" />
-            <marker date="1472486758030" expanded="true" signature="223:240" ph="DROP TABLE C... " />
-            <marker date="1472486758030" expanded="true" signature="460:500" ph="select * fro... Counts" />
-            <marker date="1472486758030" expanded="true" signature="460:576" ph="select * fro... Counts" />
-            <marker date="1472486758030" expanded="true" signature="580:624" ph="insert into Counts... " />
-            <marker date="1472486758030" expanded="true" signature="693:738" ph="Update Count... " />
+            <marker date="1473406854846" expanded="true" signature="182:209" ph="DROP TABLE I... " />
+            <marker date="1473406854846" expanded="true" signature="211:237" ph="DROP TABLE I... " />
+            <marker date="1473406854846" expanded="true" signature="239:265" ph="DROP TABLE I... " />
+            <marker date="1473406854846" expanded="true" signature="269:375" ph="CREATE TABLE... Artist" />
+            <marker date="1473406854846" expanded="true" signature="378:507" ph="CREATE TABLE... Album" />
+            <marker date="1473406854846" expanded="true" signature="510:694" ph="CREATE TABLE... Track" />
+            <marker date="1473406854846" expanded="true" signature="1667:1724" ph="INSERT OR IG... Artist" />
+            <marker date="1473406854846" expanded="true" signature="1760:1796" ph="SELECT id FR... Artist" />
+            <marker date="1473406854846" expanded="true" signature="1866:1937" ph="INSERT OR IG... Album" />
+            <marker date="1473406854846" expanded="true" signature="1982:2018" ph="SELECT id FR... Album" />
+            <marker date="1473406854846" expanded="true" signature="2086:2194" ph="INSERT OR RE... Track" />
           </folding>
         </state>
       </provider>
